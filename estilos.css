@@ -1,0 +1,147 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+
+body {
+
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+}
+
+.logo{
+display: inline-block;
+margin-top: 40px;
+margin-left: 80px
+
+}
+
+.logo_img{
+    width: 31.09px;
+    height: 48px;
+}
+
+
+.form {
+
+display: flex;
+flex-direction:row;
+width: 60%;
+
+}
+
+
+.container{
+    width: 100%;
+    margin-left: 200px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+
+.container .areaTexto{
+    font-family: 'Inter';
+    font-size: 18px;
+    resize: none;
+    margin-bottom: 200px;
+    width: 90%;
+    height: 200px;
+    color: rgb(255, 255, 255);
+    border: none;
+    background-color: transparent;
+}
+
+.advertencia {
+display: flex;
+flex-direction: row;
+align-items: center;
+color: #AEE7BE;
+opacity: 0.8;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+}
+
+.material-symbols-outlined{
+
+    font-size: 12px;
+}
+
+
+.Botones .boton-uno{
+
+
+width: 300px;
+height: 55px;
+background: #78FD9D;
+border-radius: 24px;
+font-weight: bold;
+font-family: 'Inter';
+}
+
+.Botones .boton-dos{
+        
+    width: 300px;
+    height: 55px;
+    background: #AEE7BE;
+    border-radius: 24px;
+    font-weight: bold;
+    font-family: 'Inter';
+    }
+    
+
+
+        
+.areaTexto2 {
+    position: relative;
+   
+    height: 85%;
+    width: 95%;
+    font-family: 'Inter';
+    font-size: 18px;
+    resize: none;
+    background-color: transparent;
+    background: url(Muñeco.png) center top no-repeat,  url(Frame5.png) bottom no-repeat         ;
+    border: none;
+    border-radius: 5px;
+    color: white;
+
+}
+
+
+.caja-texto2{
+position: absolute;
+display: flex;
+flex-direction: column;
+justify-content:  center;
+align-items: center;
+left: 1000px;
+top: 40px;
+width: 350px;
+height: 600px;
+border: 1px solid #AEE7BE;
+border-radius: 5px;
+background: linear-gradient(180deg, #040404 99.98%, #84D29A 99.99%, rgba(1, 12, 4, 0) 100%);
+box-shadow: 0px 2px 2px rgb(155, 250, 195);
+}
+
+.caja-texto2 .boton-tres{
+
+width: 300px;
+height: 55px;
+margin-top: 10px;
+background: #78FD9D;
+border-radius: 24px;
+font-weight: bold;
+font-family: 'Inter';
+}
+
+
